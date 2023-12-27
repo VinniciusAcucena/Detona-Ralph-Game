@@ -15,7 +15,7 @@ const state = {
     },
 
     actions: {
-        timerId: setInterval(randomSquare, 1000),
+        timerId: setInterval(randomSquare, Math.random() * 1000),
         countDownTimerId: setInterval(countDown, 1000)
     }
 };
