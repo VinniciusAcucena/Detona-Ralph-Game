@@ -36,14 +36,28 @@
     background-size: cover;
 }
 
-.menu-lives{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
 
 .menu-time h2:nth-child(2),
 .menu-score h2:nth-child(2){
     margin-top: 1rem;
     
+}
+
+.reset-game{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #ff0000;
+    border-radius: 50px;
+    color:#ff0000;
+    background-color: #000000;
+}
+
+.reset-game:hover{
+    width: 150px;
+    height: 30px;
+    border: 2px solid #ff0000;
+    border-radius: 50px;
+    color:#000000;
+    background-color: #ff0000;
+    cursor: pointer;
 }
